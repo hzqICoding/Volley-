@@ -119,7 +119,6 @@ public class HurlStack implements HttpStack {
             connection.addRequestProperty(headerName, map.get(headerName));
         }
         /**添加请求参数*/
-        //测试代码
         setConnectionParametersForRequest(connection, request);
         // Initialize HttpResponse with data from the HttpURLConnection.
         ProtocolVersion protocolVersion = new ProtocolVersion("HTTP", 1, 1);
